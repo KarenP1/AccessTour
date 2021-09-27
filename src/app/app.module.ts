@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DiscapacidadComponent } from './discapacidad/discapacidad.component';
 import { InclusionComponent } from './inclusion/inclusion.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     FooterComponent,
     DiscapacidadComponent,
     InclusionComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
